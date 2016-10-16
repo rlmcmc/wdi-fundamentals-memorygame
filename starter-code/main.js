@@ -14,6 +14,7 @@ var cardFour = "king";
 //} 
 
 
+
 var createCards = function() {
 	var gameBoard = document.getElementById('game-board');
 	for (var i = 0; i < 4; i++) {
