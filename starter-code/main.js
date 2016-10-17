@@ -24,3 +24,15 @@ var createCards = function() {
 	}
 }
 
+var Cards = [queen, queen, king, king]
+	var cardsInPlay = []
+	for (var i = 0; i < cards.length; i++) {
+		cardsInPlay  cardElement.addEventListener('click', isTwoCards)
+		cardElement.setAttribute('data-card', cards[i]);
+	}
+	var cardsInPlay = function isTwoCards() {
+		if (cardsInPlay.length === 2) {
+			cardsInPlay.push(this.getAttribute('data-card'));
+
+
+			
